@@ -13,13 +13,7 @@ var api = require('./routes/api');
 var authenticate = require('./routes/authenticate')(passport);
 //add for Mongo support
 var mongoose = require('mongoose');
-
-if(process.env.DEV_ENV){
-mongoose.connect('mongodb://localhost/test-chirp');              //connect to Mongo
-}
-else{
-   mongoose.connect('mongodb://yugal:Database123@ds153958.mlab.com:53958/quack');
-}
+mongoose.connect('mongodb://quacker:quack@ds153958.mlab.com:53958/quack');
 var app = express();
 
 // view engine setup
