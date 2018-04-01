@@ -1,5 +1,5 @@
 
-var app = angular.module('quackApp', ['ngRoute', 'ngResource']).run(function($rootScope) {
+var app = angular.module('quackApp', ['ngRoute', 'ngResource']).run(function($rootScope,$http) {
 	$rootScope.authenticated = false;
 	$rootScope.current_user = '';
 	
