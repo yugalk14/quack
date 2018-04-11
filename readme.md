@@ -19,6 +19,17 @@ I've used **Passport.js** for user login authentication. For user's password sec
 
 Have a look into this application, its a light Twitter clone where you can quack!(Tweet).
 
+## How to run
+Firstly you've to have npm and node.js installed on your machine then follow this steps
+
+- Download or Clone it on your Desktop.
+- Go Inside the folder
+- sudo npm install (This will install the dependencies in the local node_modules folder.)
+- npm start
+- go to your http://localhost:3000/
+
+I hope you'll be able to follow the steps and run it.
+
 
 
 
